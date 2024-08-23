@@ -4,21 +4,12 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-<<<<<<< HEAD
     "start:dev": "concurrently \"npm run server\" \"npm run client\"",
     "start": "node server/server.js",
     "server": "nodemon server/server.js",
     "build": "webpack --config client/webpack.config.js",
     "install": "npm install --prefix client",
     "client": "npm start --prefix client"
-=======
-    "start:dev": "",
-    "start": "",
-    "server": "",
-    "build": "",
-    "install": "",
-    "client": ""
->>>>>>> 79f3e56d1233ca5665868c6c2831da93c2f9d8bb
   },
   "keywords": [],
   "author": "",
@@ -29,12 +20,8 @@
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-<<<<<<< HEAD
     "nodemon": "^2.0.4",
     "webpack": "^5.94.0",
     "webpack-cli": "^5.1.4"
-=======
-    "nodemon": "^2.0.4"
->>>>>>> 79f3e56d1233ca5665868c6c2831da93c2f9d8bb
   }
 }
